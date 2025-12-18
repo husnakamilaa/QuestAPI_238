@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">API Service Siswa</string>
     <string name="entry_siswa">Tambah Data Siswa</string>
-    <string name="detail_ang">Detail Anggota</string>
     <string name="deskripsi_no_item">Tidak ada data Anggota. Tap + untuk menambah data</string>
-    <string name="nama">Nama Anggota*</string>
-    <string name="divisi">Divisi Anggota*</string>
-    <string name="nama1">Nama Anggota  :</string>
-    <string name="divisi1">Difisi Anggota :</string>
+    <string name="nama">Nama Siswa*</string>
+    <string name="alamat">Alamat Siswa*</string>
+    <string name="telpon">Telpon Siswa*</string>
     <string name="required_field">* required fields</string>
     <string name="btn_submit">Submit</string>
     <string name="detail_anggota">Detail Anggota</string>
