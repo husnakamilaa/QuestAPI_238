@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">dataClass</string>
+    <string name="app_name">API Service Siswa</string>
+    <string name="entry_siswa">Tambah Data Siswa</string>
 </resources>
