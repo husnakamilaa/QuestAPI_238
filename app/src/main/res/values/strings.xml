@@ -15,5 +15,8 @@
     <string name="delete">Hapus</string>
     <string name="update">Edit</string>
     <string name="attention">Perhatian</string>
+    <string name="loading">Loading...</string>
+    <string name="gagal">Gagal...</string>
+    <string name="retry">cob ulangi...</string>
     <string name="tanya_hapus">Apakah anda yakin menghapus ini ?</string>
 </resources>
