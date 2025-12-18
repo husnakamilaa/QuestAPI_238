@@ -1,17 +1,24 @@
 package com.example.dataclass.viewmodel
 
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.dataclass.modeldata.DataSiswa
 import com.example.dataclass.repositori.RepositoryDataSiswa
+import kotlinx.coroutines.launch
 import okio.IOException
 
 sealed interface StatusUiSiswa {
-
+    data class Success(val siswa: List<DataSiswa> = listOf()): StatusUiSiswa
+    object Error: StatusUiSiswa
+    object Loading: StatusUiSiswa
 }
 
-class HomeViewModel(private val repositoryDataSiswa: RepositoryDataSiswa: RepositoryDataSiswa):
-        viewModel() {
+class HomeViewModel(private val repositoryDataSiswa: RepositoryDataSiswa):
+        ViewModel() {
             var listSiswa: StatusUiSiswa by mutableStateOf(StatusUiSiswa.Loading)
                 private set
             init {

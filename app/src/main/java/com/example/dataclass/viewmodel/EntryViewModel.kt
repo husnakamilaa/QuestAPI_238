@@ -9,7 +9,7 @@ import com.example.dataclass.modeldata.UIStateSiswa
 import com.example.dataclass.modeldata.toDataSiswa
 import com.example.dataclass.repositori.JaringanRepositoryDataSiswa
 import com.example.dataclass.repositori.RepositoryDataSiswa
-import okhttp3.Response
+import retrofit2.Response
 
 class EntryViewModel (private val repositoryDataSiswa: RepositoryDataSiswa):
         ViewModel() {
@@ -33,7 +33,7 @@ class EntryViewModel (private val repositoryDataSiswa: RepositoryDataSiswa):
             //fungsi buat nyimpen data yang di entry
             suspend fun addSiswa() {
                 if (validasiInput()) {
-                    val sip:Response<Void> = repositoyDataSiswa.postDataSiswa(uiStateSiswa
+                    val sip: Response<Void> = repositoryDataSiswa.postDataSiswa(uiStateSiswa
                         .detailSiswa.toDataSiswa())
                     if (sip.isSuccessful) {
                         println("Sukses Tambah Data: ${sip.message()}")

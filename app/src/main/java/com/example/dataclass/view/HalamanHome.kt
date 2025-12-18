@@ -136,7 +136,7 @@ fun ErrorScreen(retryAction: () -> Unit, modifier: Modifier = Modifier) {
 @Composable
 fun DaftarSiswa(
     itemSiswa : List<DataSiswa>,
-    onSiswaClick: (Int) -> Unit,
+    onSiswaClick: (DataSiswa) -> Unit,
     modifier: Modifier = Modifier
 ) {
     LazyColumn(modifier = Modifier) {
