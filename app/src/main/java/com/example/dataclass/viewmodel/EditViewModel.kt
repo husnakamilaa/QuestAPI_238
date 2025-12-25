@@ -1,0 +1,22 @@
+package com.example.dataclass.viewmodel
+
+import androidx.compose.runtime.State
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.dataclass.modeldata.DetailSiswa
+import com.example.dataclass.modeldata.UIStateSiswa
+import com.example.dataclass.modeldata.toDataSiswa
+import com.example.dataclass.modeldata.toUiStateSiswa
+import com.example.dataclass.repositori.RepositoryDataSiswa
+import com.example.dataclass.uicontroller.route.DestinasiDetail
+import kotlinx.coroutines.launch
+import retrofit2.Response
+
+class EditViewModel(savedStateHandle: SavedStateHandle, private val repositoryDataSiswa:
+RepositoryDataSiswa): ViewModel() {
+
+}
