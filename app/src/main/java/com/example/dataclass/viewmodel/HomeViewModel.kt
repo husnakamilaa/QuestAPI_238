@@ -10,6 +10,7 @@ import com.example.dataclass.modeldata.DataSiswa
 import com.example.dataclass.repositori.RepositoryDataSiswa
 import kotlinx.coroutines.launch
 import okio.IOException
+import retrofit2.HttpException
 
 sealed interface StatusUiSiswa {
     data class Success(val siswa: List<DataSiswa> = listOf()): StatusUiSiswa
@@ -31,6 +32,8 @@ class HomeViewModel(private val repositoryDataSiswa: RepositoryDataSiswa):
                     listSiswa = try {
                         StatusUiSiswa.Success(repositoryDataSiswa.getDataSiswa())
                     }catch (e: IOException){
+                        StatusUiSiswa.Error
+                    }catch (e: HttpException) {
                         StatusUiSiswa.Error
                     }
                 }
