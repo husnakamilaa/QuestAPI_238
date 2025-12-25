@@ -18,5 +18,7 @@ import retrofit2.Response
 
 class EditViewModel(savedStateHandle: SavedStateHandle, private val repositoryDataSiswa:
 RepositoryDataSiswa): ViewModel() {
+    var uiStateSiswa by mutableStateOf(UIStateSiswa())
+        private set
 
 }
