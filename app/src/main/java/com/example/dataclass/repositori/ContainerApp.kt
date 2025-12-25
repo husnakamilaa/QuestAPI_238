@@ -15,7 +15,7 @@ interface ContainerApp {
 }
 
 class DefaultContainerApp: ContainerApp {
-    private val baseurl = "http://10.49.2.253/umyTI/"
+    private val baseurl = "http://192.168.110.246/umyTI/"
 
     val logging = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
