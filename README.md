@@ -22,10 +22,8 @@
 | **Tambah Data** |
 | <img src="https://github.com/user-attachments/assets/2b8463f9-1653-4d09-b1da-0570b96d79d1" width="900" /> | 
 | **Edit Data** |
-| <img src="" width="900" /> | 
+| <img src="https://github.com/user-attachments/assets/492d3855-58fe-459d-b905-91502036e8a7" width="900" /> | 
 | **Delete Data** |
-| <img src="" width="900" /> | 
-
-
+| <img src="https://github.com/user-attachments/assets/d2a30450-c60f-4862-abe3-b617ed1a274b" width="900" /> | 
 
 </div>
