@@ -20,7 +20,7 @@
 |:----------------------:| 
 |<img src="https://github.com/user-attachments/assets/001e8077-8954-4b12-a929-6424c67f5c3c"  width="900"/> |
 | **Tambah Data** |
-| <img src="" width="900" /> | 
+| <img src="https://github.com/user-attachments/assets/2b8463f9-1653-4d09-b1da-0570b96d79d1" width="900" /> | 
 | **Edit Data** |
 | <img src="" width="900" /> | 
 | **Delete Data** |
