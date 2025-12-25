@@ -7,8 +7,8 @@
     <string name="telpon">Telpon Siswa*</string>
     <string name="required_field">* required fields</string>
     <string name="btn_submit">Submit</string>
-    <string name="detail_anggota">Detail Anggota</string>
-    <string name="edit_anggota">Edit Anggota</string>
+    <string name="detail_siswa">Detail Siswa</string>
+    <string name="edit_siswa">Edit Siswa</string>
     <string name="back">Back</string>
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
